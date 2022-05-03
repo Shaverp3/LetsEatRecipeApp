@@ -52,7 +52,6 @@ export function getRecipes(categoryId) {
   return recipesArray;
 }
 
-// modifica
 export function getRecipesByIngredient(ingredientId) {
   const recipesArray = [];
   recipes.map(data => {
@@ -87,7 +86,6 @@ export function getAllIngredients(idArray) {
   return ingredientsArray;
 }
 
-// functions for search
 export function getRecipesByIngredientName(ingredientName) {
   const nameUpper = ingredientName.toUpperCase();
   const recipesArray = [];

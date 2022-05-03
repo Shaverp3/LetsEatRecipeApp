@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React, { useLayoutEffect } from 'react';
 import { FlatList, Text, View, Image, TouchableHighlight } from "react-native";
 import styles from "./styles";
 import { getIngredientName, getAllIngredients } from "../../data/MockDataAPI";

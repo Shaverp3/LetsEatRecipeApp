@@ -23,9 +23,9 @@ export const categories = [
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
   },
   {
-    id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
+    id: 5,
+    name: 'American Food',
+    photo_url: 'https://media.istockphoto.com/photos/selection-of-american-food-picture-id931308812?s=612x612'
   },
 ];
 
@@ -33,11 +33,10 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
+    title: 'No-Bake Cookies',
     photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
     photosArray: [
       'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
       'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
       'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
       'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
@@ -70,71 +69,57 @@ export const recipes = [
   {
     recipeId: 2,
     categoryId: 3,
-    title: 'Vegan Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+    title: 'Russian Tea Cookies',
+    photo_url: 'https://media.istockphoto.com/photos/holiday-treats-picture-id1162674851?s=612x612',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
+      'https://media.istockphoto.com/photos/holiday-cookies-picture-id501769776?s=612x612',
       'https://ichef.bbci.co.uk/news/660/cpsprodpb/B2C0/production/_106106754_vegnuggets976.jpg',
       'https://pixel.nymag.com/imgs/daily/grub/2017/11/22/22-mcds-chicken-tenders.w330.h330.jpg',
       'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
     ],
     time: '30',
     ingredients: [
-      [0, '2 quarts'],
-      [16, '1'],
-      [12, '1 cup'],
-      [18, '1 cup'],
-      [19, '1 teaspoon'],
-      [1, '2 teaspoons'],
-      [4, '1/4 teaspoons'],
-      [7, '1/8 teaspoons'],
-      [20, '1/2 teaspoons'],
-      [21, '4']
+      [42, '1 lb. (room temp)'],
+      [55, '10 tablespoons'],
+      [12, '4 cups'],
+      [71, '1 cup'],
+      [70, '2 teaspoons'],
+      [1, '1 teaspoons'],
+      [72, 'small bowl']
     ],
     description:
-      '-- Beat the egg and then combine it with water in a bowl. Stir. Combine the flour, salt, MSG, pepper, onion powder and garlic powder in a gallon size zip lock bag. Pound each of the breast filets until about 1/4-inch thick. Then cut into bite sized pieces. Coat each piece with the flour mixture by shaking in the zip lock bag. Remove and coat in the egg mixture. Then coat in the flour mixture again. Shake to coat. Deep fry at 375 degrees for 10-12 minutes, until browned and crispy.'
+      '--Cream butter and sugar together. Add salt and vanilla and mix. Add pecans and mix, then add flour a little at a time, mixing each time.\n\n --Form into small balls and then shape into crescent shape. Place on cookie sheet and bake in 375° preheated oven for 8-10 minutes or until lightly browned.\n\n --While very slightly warm, roll in confectioners sugar (powdered sugar) several times.'
   },
   {
     recipeId: 3,
-    categoryId: 3,
-    title: 'Pumpkin Spice Cookies',
+    categoryId: 5,
+    title: 'Lemon/Ginger Pork Tenderloin',
     photo_url:
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
+      'https://media.istockphoto.com/photos/pork-tenderloin-picture-id1154237897?s=612x612',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg',
-      'https://cdn.junglecreations.com/wp/junglecms/2018/07/4164c5bd-wide-thumbnail.jpg',
-      'https://pinchofyum.com/wp-content/uploads/Crunchwrap-Inside.jpg',
-      'https://monsonmadethis.com/wp-content/uploads/2017/10/IMG_20171015_161017_025-e1533869302263.jpg'
+      'https://media.istockphoto.com/photos/slicing-a-barbecue-pork-tenderloin-picture-id174934084',
+      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
     ],
     time: '45',
     ingredients: [
-      [0, '2 tablespoons'],
-      [22, '1/2'],
-      [23, '2 tablespoons'],
-      [7, '2 cloves'],
-      [3, '1 teaspoon'],
-      [24, '1 tablespoon'],
-      [25, '1 lb'],
-      [1, '2 teaspoons'],
-      [4, '2 teaspoons'],
-      [26, '15 oz'],
-      [27, '8'],
-      [28, '2'],
-      [29, '1 cup']
+      [62, '2 lb'],
+      [63, '1 cup'],
+      [64, '1 cup'],
+      [65, '2 tablespoons'],
+      [66, '2 tablespoons'],
+      [67, '1 tablespoon']
     ],
     description:
-      '-- In a medium pot over medium heat, heat 1 tablespoon oil. Add onion and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Add tomato paste and stir to coat onion and garlic. Add ground beef and cook, breaking up meat with a wooden spoon, until no longer pink, 6 minutes. Drain fat.\n\n -- Return beef to pot and season with chili powder, paprika, salt, and pepper. Add tomato sauce and kidney beans. Bring to a boil, then reduce heat and let simmer 15 minutes. Add some chili to center of each tortilla, leaving room to fold in edges. Top with Fritos, then cheddar. Fold edges of tortillas toward the center, creating pleats. Invert Crunchwraps so pleats are on the bottom and stay together.\n\n -- In medium skillet over medium heat, heat remaining tablespoon oil. Add a Crunchwrap seam side down and cook until tortilla is golden, 3 to 5 minutes per side. Repeat with remaining Crunchwraps'
+      '-- In a large bowl, combine lemon juice, soy sauce and seasonings; add the pork. Turn to coat; cover. Refrigerate for 10-12 hours. Preheat grill to 425-500 degrees. Drain pork, discarding marinade and place on preheated grill, grill pork, turning every 5-6 minutes or until no longer pink, or until 165 degrees at the thickest point.\n\n -- Remove from grill and let rest at least 5 minutes, then slice across tenderlion to create 1/2 inch thick medallions.'
   },
   {
     recipeId: 1,
-    categoryId: 3,
-    title: 'Brownies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
+    categoryId: 5,
+    title: 'Southern Fried Chicken',
+    photo_url: 'https://media.istockphoto.com/photos/homemade-southern-fried-chicken-picture-id477596181?s=612x612',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg',
-      'https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg',
-      'http://www.recipe4living.com/assets/itemimages/400/400/3/83c29ac7418067c2e74f31c8abdd5a43_477607049.jpg',
-      'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg'
+      'https://www.franchisechatter.com/wp-content/uploads/2014/08/KFC-Photo-by-James.jpg',
+      'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Flarge_16_9%2Fpublic%2Fstyles%2Fmain%2Fpublic%2Fgettyimages-508510211.jpg%3Fitok%3Dh-Uryi8r&w=400&c=sc&poi=face&q=85'
     ],
     time: '30',
     ingredients: [
@@ -170,7 +155,7 @@ export const recipes = [
     ],
     time: '35',
     ingredients: [
-      [30, 'jucie of 1 '],
+      [30, 'juice of 1 '],
       [24, '2 teaspoons'],
       [0, '3 tablespoons'],
       [3, '1 teaspoon'],
@@ -179,7 +164,7 @@ export const recipes = [
       [4, '2 teaspoons'],
       [33, '1/2 lb'],
       [27, '8'],
-      [14, '2 teasponns'],
+      [14, '2 teaspoons'],
       [34, '1']
     ],
     description:
@@ -248,15 +233,16 @@ export const recipes = [
       '-- Place a rack in upper third of oven. Place a large cast-iron skillet on rack and preheat oven to 500° (or as high as your oven will go). Place pizza dough in a large bowl, pour a little oil over, and turn to coat. Cover bowl with plastic and let dough proof at room temperature while pan and oven heat up.\n\n -- Meanwhile, cook hot sauce, marinara sauce, and butter in a medium saucepan over medium heat, stirring occasionally, until butter is melted. Stir in cream, reduce heat to low, and simmer, stirring occasionally, until slightly thickened and warmed through, about 10 minutes. Heat 1 Tbsp. oil in a large skillet over medium-high. Add chicken, toss to coat, then add ¼ cup Buffalo sauce.\n\n -- Cook chicken, tossing occasionally, until heated through, about 2 minutes. Reduce heat and simmer, stirring often, until chicken is well coated and sauce is slightly thickened, about 5 minutes. Meanwhile, whisk yogurt, lemon juice, celery salt, garlic powder, ¼ cup blue cheese, ½ tsp. pepper, and 2 Tbsp. water in a small bowl, adding more water if sauce seems too thick (it should be pourable); set aside.\n\n -- Turn out dough onto a lightly floured work surface. Shape with your hands into a round that’s slightly larger than the cast-iron skillet you’re using. Take hot skillet out of oven (watch that handle!) and place on a heatproof surface. Add a little flour to pan. Lay dough in skillet, then work edges of dough up sides of skillet with your fingertips (use a rubber spatula or wooden spoon if you’re nervous about touching the hot pan). Drizzle a little oil around inside edge of pan so that it trickles behind and underneath dough, which will encourage browning and help it release.\n\n -- Spread about ⅓ cup Buffalo sauce over dough. Arrange mozzarella over, then top with remaining ¼ cup blue cheese. Arrange chicken mixture on top. Bake pizza on top rack until crust and cheese are nicely browned, 15–20 minutes. Transfer skillet to stovetop (again, watch that handle!) and let pizza rest a few minutes. Using a spatula, slide pizza onto a cutting board or platter. Arrange celery over, then top with reserved blue cheese dressing. Season with pepper, then drizzle with oil.'
   },
   {
-    recipeId: 0,
-    categoryId: 0,
+    recipeId: 39,
+    categoryId: 2,
     title: 'Classic Lasagna',
-    photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
+    photo_url: 'http://www.melandrose.com/istarimages/mp/91443-12738_d.jpg',
     photosArray: [
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://images.app.goo.gl/Gs1M6PyLnuaSfQu89',
+      'https://previews.123rf.com/images/somegirl/somegirl1509/somegirl150900048/46103208-top-view-of-a-delicious-traditional-italian-lasagna-made-with-minced-beef-bolognese-sauce-topped-wit.jpg',
+      'https://truffle-assets.imgix.net/87f324e4-YOUTUBE-NO-TXT.00_03_19_14.Imagen_fija001.jpg',
+      'https://images4.alphacoders.com/817/817350.jpg'
+      
     ],
     time: '15',
     ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
@@ -460,7 +446,7 @@ export const ingredients = [
   },
   {
     ingredientId: 24,
-    name: 'Chilli Powder',
+    name: 'Chili Powder',
     photo_url:
       'https://us.123rf.com/450wm/nuttapong/nuttapong1505/nuttapong150500009/40458002-paprika-powder-isolated-on-white-background.jpg?ver=6'
   },
@@ -483,7 +469,7 @@ export const ingredients = [
   },
   {
     ingredientId: 28,
-    name: 'Firtos',
+    name: 'Fritos',
     photo_url:
       'https://previews.123rf.com/images/ksena32/ksena321510/ksena32151000090/45863494-fried-fish-on-a-white-background.jpg'
   },
@@ -564,7 +550,7 @@ export const ingredients = [
   {
     ingredientId: 42,
     name: 'Butter',
-    photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
+    photo_url: 'https://media.istockphoto.com/photos/butter-quarters-picture-id149134517'
   },
   {
     ingredientId: 43,
@@ -580,7 +566,7 @@ export const ingredients = [
   },
   {
     ingredientId: 45,
-    name: 'Chesse',
+    name: 'Cheese',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
   },
   {
@@ -676,5 +662,71 @@ export const ingredients = [
     name: 'Greek Yogurt',
     photo_url:
       'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+  },
+  {
+    ingredientId: 62,
+    name: 'Pork tenderloin',
+    photo_url:
+      'https://media.istockphoto.com/photos/fillet-of-pork-picture-id178148993?s=612x612'
+  },
+  {
+    ingredientId: 63,
+    name: 'Lemon Juice',
+    photo_url:
+      'https://media.istockphoto.com/photos/lemon-juice-and-fresh-lemons-picture-id539085046?s=612x612'
+  },
+  {
+    ingredientId: 64,
+    name: 'Soy Sauce',
+    photo_url:
+      'https://media.istockphoto.com/photos/soy-sauce-in-glass-bottle-and-bowl-isolated-on-white-picture-id1224854779?s=612x612'
+  },
+  {
+    ingredientId: 65,
+    name: 'Ground Ginger',
+    photo_url:
+      'https://media.istockphoto.com/photos/ginger-root-picture-id507296434?s=612x612'
+  },
+  {
+    ingredientId: 66,
+    name: 'Garlic Salt',
+    photo_url:
+      'https://media.istockphoto.com/photos/garlic-cloves-with-garlic-powder-isolated-picture-id1209852002?s=612x612'
+  },
+  {
+    ingredientId: 67,
+    name: 'Onion Powder',
+    photo_url:
+      'https://media.istockphoto.com/photos/ground-onion-or-onion-powder-picture-id1348423627?s=612x612'
+  },
+  {
+    ingredientId: 68,
+    name: 'Oats',
+    photo_url:
+      'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+  },
+  {
+    ingredientId: 69,
+    name: 'Chocolate powder',
+    photo_url:
+      'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+  },
+  {
+    ingredientId: 70,
+    name: 'Vanilla Extract',
+    photo_url:
+      'https://media.istockphoto.com/photos/aromatic-vanilla-extract-and-beans-on-wooden-table-picture-id1321087572'
+  },
+  {
+    ingredientId: 71,
+    name: 'Pecan Pieces',
+    photo_url:
+      'https://media.istockphoto.com/photos/pile-of-chopped-pecan-nuts-on-white-picture-id468393257'
+  },
+  {
+    ingredientId: 72,
+    name: 'Confectioners Sugar',
+    photo_url:
+      'https://media.istockphoto.com/photos/powdered-sugar-picture-id459271139'
   },
 ];
