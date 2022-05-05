@@ -1,4 +1,4 @@
-# Recipes App in React Native
+# Let's Eat!! Recipes App in React Native
 
 ## Getting Started
 
@@ -25,4 +25,9 @@ And scan the QR code in the Expo client app.
 - Beautiful UI Design Kit
 - Compatible with Expo
 - Highly modularized codebase
-  "# LetsEatRecipeApp" 
+
+## To Come
+
+- Ability to add a recipe from the mobile device
+
+- More categories and recipes
